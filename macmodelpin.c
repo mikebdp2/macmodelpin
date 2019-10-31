@@ -166,7 +166,7 @@ static void usage(unsigned const char *str) {
     fprintf(stdout, "        %s dump.bin\n", str);
     fprintf(stdout, "    to set:\n");
     fprintf(stdout, "        %s dump.bin 0xMAC 0xMODEL PIN\n", str);
-    fprintf(stdout, "        %s dump.bin 0x16A2594B37DF 0x084100090000000 12345678\n", str);
+    fprintf(stdout, "        %s dump.bin 0x16A2594B37DF 0x0841000900000001 12345678\n", str);
       fflush(stdout);
         sleep(1);
 }
